@@ -1,0 +1,3 @@
+﻿  baekjoon_11720.cpp
+C:\Users\namuj\algorithm_cpp\input_output\input_output\baekjoon_11720.cpp(10,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+  input_output.vcxproj -> C:\Users\namuj\algorithm_cpp\input_output\Debug\input_output.exe
