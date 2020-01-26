@@ -31,7 +31,7 @@ int main() {
 			else cout << 0 << "\n";
 		}
 
-		else // empty老 版快
+		else // pop老 版快
 		{
 			if (vec.size() == 0) cout << -1 << "\n";
 			else {
