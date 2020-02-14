@@ -23,4 +23,6 @@ int main() {
 
 	cout << vec[num];
 
+	return 0;
+
 }
