@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// 수열 A가 주어졌을 때, 그 수열의 증가 부분 수열 중에서 합이 가장 큰 것을 구하는 프로그램을 작성하시오.
+
 int main() {
 	int num;
 	int arr[1001] = { 0, };
@@ -20,7 +22,7 @@ int main() {
 			if (arr[i] > arr[j]) { // arr[i]보다 작을 경우
 				if (min < dp[j])
 				{
-					min = dp[j];
+					min = dp[j]; // min에 d[j]를 저장.
 	
 				}
 			}
