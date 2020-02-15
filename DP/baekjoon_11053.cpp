@@ -26,7 +26,6 @@ int main() {
 			}
 		}
 		Dp[i] = min + 1;
-		cout << Dp[i] << endl;
 		if (max < Dp[i])
 			max = Dp[i]; // 작은 수들의 개수가 가장 최대치인 경우를 저장
 	}
