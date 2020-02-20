@@ -7,14 +7,14 @@ using namespace std;
 int main() {
 	int num;
 	int a;
-	int dp[100001] = { 0, };
+	int dp[100001] = { 0, }; // 최소 개수 저장.
 
 	cin >> num;
 
 	for (int i = 1; i <= num; i++) {
-		for (int j = 1; j <= sqrt(i); j++) {
+		for (int j = 1; j <= sqrt(i); j++) { // 범위는 sqrt(i)까지만.
 			if (dp[i] > dp[i - j * j] + 1 || dp[i] == 0)
-			dp[i] = dp[i - j * j] + 1;
+			dp[i] = dp[i - j * j] + 1; // 점화식
 		}
 	}
 	
